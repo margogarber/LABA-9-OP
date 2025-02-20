@@ -1,6 +1,6 @@
 public class countnumwithstr {
         public static int countNumWithStr(String sentence) {
-            String[] words = sentence.split("\\s+"); // Розділяємо за пробілами
+            String[] words = sentence.split("\\s+"); 
             int count = 0;
 
             for (String word : words) {
@@ -16,7 +16,7 @@ public class countnumwithstr {
 
                     if (hasLetter && hasDigit) {
                         count++;
-                        break; // Виходимо з циклу для цього слова
+                        break; 
                     }
                 }
             }
